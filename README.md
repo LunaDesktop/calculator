@@ -3,17 +3,17 @@
 Kalkulator standardowy i naukowy środowiska Luna na libLunie. Cała arytmetyka
 wykonuje się lokalnie w aplikacji — bez GTK, bez bazy danych i bez sieci.
 
-![Tryb standardowy](../../docs/images/calculator-standard.png)
+![Tryb standardowy](../docs/images/calculator-standard.png)
 
-![Historia obliczeń](../../docs/images/calculator-history.png)
+![Historia obliczeń](../docs/images/calculator-history.png)
 
-![Tryb naukowy](../../docs/images/calculator-scientific.png)
+![Tryb naukowy](../docs/images/calculator-scientific.png)
 
-![Menu aplikacji](../../docs/images/calculator-menu.png)
+![Menu aplikacji](../docs/images/calculator-menu.png)
 
-![Ustawienia](../../docs/images/calculator-settings.png)
+![Ustawienia](../docs/images/calculator-settings.png)
 
-![O kalkulatorze](../../docs/images/calculator-about.png)
+![O kalkulatorze](/monorepo/docs/images/calculator-about.png)
 
 ## Funkcje
 
