@@ -33,11 +33,14 @@ wykonuje się lokalnie w aplikacji — bez GTK, bez bazy danych i bez sieci.
 ## Uruchamianie
 
 ```sh
-cargo run --manifest-path apps/luna-calculator/Cargo.toml
-cargo run --manifest-path apps/luna-calculator/Cargo.toml -- --scientific
-cargo test --manifest-path apps/luna-calculator/Cargo.toml --lib
-cargo run --manifest-path apps/luna-calculator/Cargo.toml --bin preview
+cargo run --release --locked
+cargo run --release --locked -- --scientific
+cargo test --lib
+cargo run --bin preview
 ```
+
+Wymaga kompozytora Selene. libLunę `cargo` pobiera z repozytorium
+https://github.com/LunaDesktop/libLuna.
 
 ## Skróty
 
